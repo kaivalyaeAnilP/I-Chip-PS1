@@ -64,10 +64,10 @@ module Testbench;
 	initial
 	begin
 	#983045 begin
-	   $writememh("BrightenedImage.hex", memory1);
-	   $writememh("DarkenedImage.hex", memory2);
-	   $writememh("ThresholdImage.hex", memory3);
-	   $writememh("InvertedImage.hex", memory4); 
+	   $writememh("Brightened_image.hex", memory1);
+	   $writememh("Darkened_image.hex", memory2);
+	   $writememh("Thresholded_image.hex", memory3);
+	   $writememh("Inverted_image.hex", memory4); 
 	   $finish;
 	   end
     end 
