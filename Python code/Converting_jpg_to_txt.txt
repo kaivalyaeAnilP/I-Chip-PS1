@@ -3,7 +3,7 @@ from PIL import Image
 im = Image.open('C:/Users/Kaivalya/Downloads/Img.jpg')
 
 pixels = list(im.getdata())
-width, height = 256,256 
+width, height = 384,256 
 pixels_int = [int(x) for x in pixels]
 pixels_hex = [hex(x) for x in pixels_int]
 
